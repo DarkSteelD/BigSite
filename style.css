@@ -38,9 +38,3 @@
     }
 
 }
-@media (max-width: 768px) {
-    .comp-menu{
-        display: none;
-    }
-
-}
