@@ -16,7 +16,7 @@
 
 
 }
-video {
+.video {
   height: 100vh;
   object-fit: cover;
 
@@ -57,4 +57,9 @@ video {
     }
 
 
+}
+
+.h1{
+    font: Montserrat;
+    font-size:  x-large;
 }
