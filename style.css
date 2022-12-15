@@ -29,12 +29,10 @@
 
 
 @media (min-width: 768px) {
-    .menu{
-
-        display: none;
-    }
+    
     .comp-menu{
         margin: 10px;
+
     }
 
 }
