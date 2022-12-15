@@ -59,7 +59,9 @@
 
 }
 
-.h1{
+.Big{
     font: Montserrat;
-    font-size:  x-large;
+    font-size: 80%;
+    font-weight: 800;
+
 }
