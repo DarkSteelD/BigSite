@@ -25,5 +25,22 @@
 .Hat{
   color:#fff;
 
+}
+
+
+@media (min-width: 768px) {
+    .menu{
+
+        display: none;
+    }
+    .comp-menu{
+        margin: 10px;
+    }
+
+}
+@media (max-width: 768px) {
+    .comp-menu{
+        display: none;
+    }
 
 }
