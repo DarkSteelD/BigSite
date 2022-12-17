@@ -16,7 +16,7 @@
 
 
 }
-video {
+.video {
   height: 100vh;
   object-fit: cover;
 
@@ -69,5 +69,12 @@ video {
         padding-top:25%;
     }
 
+
+}
+
+.Big{
+    font: Montserrat;
+    font-size: 80%;
+    font-weight: 800;
 
 }
