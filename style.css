@@ -56,6 +56,9 @@ video {
         black 50%);
     display: flex;
 }
+.block1{
+    padding-bottom: 20px;
+}
 @media (min-width: 768px) {
     
     .comp-menu{
