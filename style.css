@@ -46,18 +46,13 @@
     border-color: #FF4500;
     padding: 0 10px;
 }
-.block{
-    height: 100vh;
-    background: linear-gradient(
-        to bottom,
-        white 0%,
-        white 50%,
-        black 0%,
-        black 50%);
-    display: flex;
+.content{
+    padding-bottom: 70px;
 }
-.block1{
-    padding-bottom: 20px;
+
+.card-img-top{
+    width: 10%;
+    height: 10%;
 }
 @media (min-width: 768px) {
     
