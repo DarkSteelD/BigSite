@@ -54,11 +54,24 @@
 
     width: 60px;
     height: 60px;
+    position: relative;
+    left: 185px;
+
  
 }
 .card{
     width: 28rem;
     height: 15rem;
+    overflow: hidden;
+}
+.block2{
+    background: linear-gradient(to right, #040613 0%, #1c1e2a 100%);
+    
+    position: absolute;
+    top: 3500px;
+    z-index: -100;
+    width: 500px;
+
 }
 @media (min-width: 768px) {
     
@@ -70,8 +83,14 @@
         padding-top:25%;
     }
     .card{
-    width: 18rem;
-    height: 22rem;
+        width: 18rem;
+        height: 22rem;
+    }
+    .block2{
+        top: 1800px;
+    }
+    .card-img-top{
+        left: 110px;
     }
 
 }
