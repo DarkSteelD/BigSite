@@ -56,7 +56,10 @@
     height: 60px;
  
 }
-
+.card{
+    width: 28rem;
+    height: 15rem;
+}
 @media (min-width: 768px) {
     
     .comp-menu{
@@ -66,7 +69,10 @@
     .fullscreen-bg{
         padding-top:25%;
     }
-
+    .card{
+    width: 18rem;
+    height: 22rem;
+    }
 
 }
 
