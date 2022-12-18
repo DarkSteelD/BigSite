@@ -99,6 +99,7 @@
     font-size: 24px;
     margin-bottom: 20px;
     margin-top: initial;
+    align-self: center ;
 }
 
 .headerTeam{
@@ -106,7 +107,7 @@
     font-size: 80%;
     font-weight: 800;
 }
-.container{
+.container-1{
     background-color: #CD5C5C    ;
     display: block
     padding: auto;
