@@ -72,7 +72,7 @@
     position: absolute;
     top: 3500px;
     z-index: -100;
-
+    height: 250vw;
 
 }
 .orange{
@@ -100,10 +100,13 @@
     position: absolute;
     top: 810px;
     margin-bottom: 100px;
-    
-  width: 20%;
-  height: 20%;
+    margin-top: 20px;
+  
 
+}
+.compik img{
+    width: 100%;
+    height: 100%;
 }
 .text{
     margin: 600px;
@@ -123,6 +126,7 @@
     }
     .block2{
         top: 1800px;
+        height: 65vw;
     }
     .card-img-top{
         left: 110px;
@@ -138,6 +142,7 @@
         margin-bottom: 100px;
         width: auto;
         height: auto;
+        margin-top: 0px;
     }
     .text{
        margin-top: 1100px; 
@@ -146,6 +151,10 @@
         top: 400px;
         position: absolute;
         left: 1000px;
+    }
+    .compik img{
+        width: 100%;
+        height: 100%;
     }
 }
 
