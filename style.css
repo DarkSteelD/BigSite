@@ -36,7 +36,7 @@
     margin: 0 auto;
 }
 .Hat{
-  color:#fff;
+  color:#000;
   position: relative;
 
 }
@@ -68,11 +68,10 @@
 
 .block2{
     background: linear-gradient(to right, #040613 0%, #1c1e2a 100%);
-    width: 100vw;
-    position: absolute;
-    top: 3500px;
+
+
     z-index: -100;
-    height: 300vw;
+
 
 }
 .orange{
