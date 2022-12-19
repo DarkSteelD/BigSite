@@ -55,7 +55,7 @@
     width: 60px;
     height: 60px;
     position: relative;
-    left: 165px;
+    left: 160px;
 
  
 }
@@ -65,6 +65,7 @@
     height: 15rem;
     overflow: hidden;
 }
+
 .block2{
     background: linear-gradient(to right, #040613 0%, #1c1e2a 100%);
     width: 100vw;
@@ -83,19 +84,29 @@
     border-color: #FF4500;
     padding: 0 10px;
 }
-.inblock2{
-    
-    color:#fff;    
+.inblock2{  
+    color:#fff;  
+    height: 350vw;  
+}
+.deepblock2
+{
 
+    position: absolute;
+    top: 220px;
 }
 
 .compik{
     
-
+    position: absolute;
+    top: 810px;
+    margin-bottom: 100px;
+    
+  width: 20%;
+  height: 20%;
 
 }
 .text{
-    
+    margin: 600px;
 }
 @media (min-width: 768px) {
     
@@ -125,11 +136,14 @@
         position: absolute;
         top: 310px;
         margin-bottom: 100px;
+        width: auto;
+        height: auto;
     }
     .text{
        margin-top: 1100px; 
     }
     .deepblock2{
+        top: 400px;
         position: absolute;
         left: 1000px;
     }
