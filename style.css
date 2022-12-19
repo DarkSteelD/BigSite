@@ -55,7 +55,7 @@
     width: 60px;
     height: 60px;
     position: relative;
-    left: 160px;
+    left: 110px;
 
  
 }
@@ -78,39 +78,11 @@
 .orange{
     color: #FF4500;
 }
-.bor{
-    border-left: 3px ;
-    border-left-style: solid;
-    border-color: #FF4500;
-    padding: 0 10px;
-}
-.inblock2{  
-    color:#fff;  
-    height: 350vw;  
-}
-.deepblock2
-{
 
-    position: absolute;
-    top: 227px;
-}
 
-.compik{
-    
-    position: absolute;
-    top: 810px;
-    margin-bottom: 100px;
-    margin-top: 20px;
-  
 
-}
-.compik img{
-    width: 100%;
-    height: 100%;
-}
-.text{
-    margin: 600px;
-}
+
+
 @media (min-width: 768px) {
     
     .comp-menu{
@@ -124,38 +96,7 @@
         width: 18rem;
         height: 22rem;
     }
-    .block2{
-        top: 1800px;
-        height: 65vw;
-    }
-    .card-img-top{
-        left: 110px;
-    }
-    .inblock2{
-        height: 30vw;
-        margin-top: 600px;
-
-    }
-    .compik{
-        position: absolute;
-        top: 310px;
-        margin-bottom: 100px;
-        width: auto;
-        height: auto;
-        margin-top: 0px;
-    }
-    .text{
-       margin-top: 1100px; 
-    }
-    .deepblock2{
-        top: 400px;
-        position: absolute;
-        left: 1000px;
-    }
-    .compik img{
-        width: 100%;
-        height: 100%;
-    }
+    
 }
 
 .Big{
