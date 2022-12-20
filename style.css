@@ -106,7 +106,13 @@
     }
     .Hat{
         color: #fff;
+
+
     }
+    .flex-container {
+        display: flex;
+        align-items: stretch; /* Растягиваем */
+      }
     
 }
 
