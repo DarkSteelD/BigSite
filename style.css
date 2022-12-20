@@ -25,7 +25,7 @@
     width: 60px;
     height: 60px;
     position: relative;
-    left: 110px;
+    left: 38vw;
 
  
 }
@@ -100,6 +100,15 @@
 
     }
     
+     .card-img-top{
+
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 5vw;
+
+ 
+    }
     .card{
         width: 18rem;
         height: 22rem;
@@ -120,7 +129,7 @@
     font-size: 24px;
     margin-bottom: 20px;
     margin-top: initial;
-    align-self: center ;
+    align-self: ;
 }
 
 .headerTeam{
@@ -133,4 +142,11 @@
     display: block
     padding: auto;
     margin: 0;
+}
+.block-6{
+    white-space: nowrap;
+    text-align: center;
+}
+.block-6-text{
+    text-align: center;
 }
