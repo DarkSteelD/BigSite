@@ -73,7 +73,9 @@
     font-size: 3.5em;
     text-align: center;
 }
-
+.img-fluid{
+    margin-bottom: 25px;
+}
 
 #navbar ul {
    
@@ -140,20 +142,86 @@ width: auto;
     color:#fff;/*Задаём цвет ссылки*/
 }
 .compss:after {
-display: block; /*превращаем его в блочный элемент*/
-content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
-height: 3px; /*задаём высоту линии*/
-width: 0%; /*задаём начальную ширину элемента (линии)*/
-background-color: #FF4500; /*цвет фона элемента*/
-transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    display: block; /*превращаем его в блочный элемент*/
+    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+    height: 3px; /*задаём высоту линии*/
+    width: 0%; /*задаём начальную ширину элемента (линии)*/
+    background-color: #FF4500; /*цвет фона элемента*/
+    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
 }
 .compss:hover:after,
 .compss:focus:after {
-width: 100%;
+    width: 100%;
 }
 .compss:hover{
-color:#225384;
+    color:#225384;
 } 
+#menu * { 
+  padding:0; 
+  margin: 0; 
+  font: 12px georgia; 
+  list-style-type:none;
+}
+#menu { 
+  margin-top: 100px;
+  
+  line-height: 10px; 
+  left: 200px;
+}
+#menu a { 
+  display: block; 
+  text-decoration: none; 
+  color: #fff;
+}
+#menu a:hover { background: #000;}
+#menu ul li ul li a:hover { 
+  background: #000; 
+}
+#menu ul li ul li {
+ 
+  border: none; 
+  color: #000;  
+  padding-top: 3px; 
+  padding-bottom:3px; 
+  padding-left: 3px; 
+  padding-right: 3px; 
+  background: #000;
+}
+
+#menu ul li {
+  float: left; 
+  width:100vw;  
+  background: #000;
+}
+#menu ul li a { 
+  padding: 15px 10px;
+}
+#menu li {
+  position:relative; 
+  
+}
+#menu ul li ul, #menu:hover ul li ul, #menu:hover ul li:hover ul li ul {
+  display:none;
+  list-style-type:none;
+  width: 20px;
+}
+#menu:hover ul, #menu:hover ul li:hover ul, #menu:hover ul li:hover ul li:hover ul {
+  display:block;
+}
+#menu:hover ul li:hover ul li:hover ul {
+  position: absolute;
+
+}
+#menu:hover ul li:hover ul {
+  position: absolute;
+  margin-top: 1px;
+
+}
+#menu>ul>li:hover>ul { 
+    bottom:100%;
+}
+
+
 @media (min-width: 768px) {
     .video-container {
     height: auto;
