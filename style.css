@@ -111,12 +111,12 @@ width: auto;
   text-decoration: none;
 
 }
-#navbar ul li { float: none; padding: 3px; }
+#navbar ul li { float: none;  }
 #navbar ul li:hover { background-color: #A62500; }
 
 .bigbutton{
 
-    text-align: left;
+    text-align: center;
     border-radius: 5px;
     cursor: pointer;
     border: 3px solid #FF4500;
@@ -130,8 +130,8 @@ width: auto;
     left: 25%;
 }
 .bigbutton:hover {
-      background-color:#FF4500;
-      transition: 0.7s;
+    background-color:#FF4500;
+    transition: 0.7s;
 }
 .bigwords{
         text-align: center;
@@ -156,26 +156,35 @@ width: auto;
 .compss:hover{
     color:#225384;
 } 
+.bu{  
+    border-color: #fff;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);   
+    text-align: left;
+}
+
 #menu * { 
   padding:0; 
   margin: 0; 
-  font: 12px georgia; 
   list-style-type:none;
 }
 #menu { 
-  margin-top: 100px;
   
-  line-height: 10px; 
   left: 200px;
 }
 #menu a { 
   display: block; 
   text-decoration: none; 
   color: #fff;
+  border-bottom: solid; border-color: #fff; border-width: 1px
 }
 #menu a:hover { background: #000;}
 #menu ul li ul li a:hover { 
-  background: #000; 
+  background: #000;
+
 }
 #menu ul li ul li {
  
