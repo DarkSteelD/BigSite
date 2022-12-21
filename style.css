@@ -15,6 +15,7 @@
     border-left-style: solid;
     border-color: #FF4500;
     padding: 0 10px;
+
 }
 .content{
     padding-bottom: 70px;
@@ -38,10 +39,7 @@
 
 .block2{
     background: linear-gradient(to right, #040613 0%, #1c1e2a 100%);
-
-
     z-index: -100;
-
 
 }
 .orange{
@@ -51,6 +49,7 @@
     height: auto;
     width: 100vw;
     position: relative;
+
     }
 
     .video-container video {
@@ -59,7 +58,7 @@
       position: absolute;
       object-fit: cover;
       z-index: 0;
-      filter: brightness(50%);
+      filter: brightness(20%);
     }
 
     /* Just styling the content of the div, the *magic* in the previous rules */
@@ -68,8 +67,12 @@
       position: relative;
       color: #dc0000;
       padding: 10px;
-    }
 
+    }
+.bigh1{
+    font-size: 3.5em;
+    text-align: center;
+}
 
 
 #navbar ul {
@@ -108,6 +111,49 @@ width: auto;
 }
 #navbar ul li { float: none; padding: 3px; }
 #navbar ul li:hover { background-color: #A62500; }
+
+.bigbutton{
+
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid #FF4500;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    position: relative;
+    left: 25%;
+}
+.bigbutton:hover {
+      background-color:#FF4500;
+      transition: 0.7s;
+}
+.bigwords{
+        text-align: center;
+    }
+.compss{
+    display: inline-block; /*делаем чтобы наша ссылка из строчного элемента превратилась в строчно-блочный*/
+
+    color:#fff;/*Задаём цвет ссылки*/
+}
+.compss:after {
+display: block; /*превращаем его в блочный элемент*/
+content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+height: 3px; /*задаём высоту линии*/
+width: 0%; /*задаём начальную ширину элемента (линии)*/
+background-color: #FF4500; /*цвет фона элемента*/
+transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+}
+.compss:hover:after,
+.compss:focus:after {
+width: 100%;
+}
+.compss:hover{
+color:#225384;
+} 
 @media (min-width: 768px) {
     .video-container {
     height: auto;
@@ -121,7 +167,7 @@ width: auto;
       position: absolute;
       object-fit: cover;
       z-index: 0;
-      filter: brightness(50%);
+      filter: brightness(20%);
     }
 
     /* Just styling the content of the div, the *magic* in the previous rules */
@@ -154,10 +200,19 @@ width: auto;
 
 
     }
-    .flex-container {
-        display: flex;
-        align-items: stretch; /* Растягиваем */
-      }
+    
+    .bigh1{
+    font-size: 3.5em;
+    text-align: left;
+    }
+    .bigbutton{
+        text-align: center;
+        position: relative;
+        left: 0%;
+    }
+    .bigwords{
+        text-align: left;
+    }
     
 }
 
