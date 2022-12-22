@@ -38,8 +38,11 @@
 }
 
 .block2{
+    color: #fff;
+    display: flex;
     background: linear-gradient(to right, #040613 0%, #1c1e2a 100%);
-    z-index: -100;
+    flex-direction: column-reverse;
+    margin-top: -40vw;
 
 }
 .orange{
@@ -289,6 +292,15 @@ width: auto;
     }
     .bigwords{
         text-align: left;
+    }
+    .block2{
+        
+        flex-direction: row;
+        margin-top: -20vw;
+    }
+    .laptop{
+        width : 50%;
+        margin-top: 20vw;
     }
     
 }
