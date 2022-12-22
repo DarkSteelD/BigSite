@@ -124,8 +124,8 @@ width: auto;
     color: #fff;
     font-size: 1em;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-    position: relative;
-    left: 25%;
+    margin:5px auto;
+    display: block;
 }
 .bigbutton:hover {
     background-color:#FF4500;
@@ -346,8 +346,8 @@ ol li{
     }
     .bigbutton{
         text-align: center;
-        position: relative;
-        left: 0%;
+        margin:5px 0;
+
     }
     .bigwords{
         text-align: left;
