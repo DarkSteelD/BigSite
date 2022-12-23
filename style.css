@@ -398,10 +398,17 @@ ol li{
 .block-card-4{
     background-image: url("img/D-background-opacity.svg");
 }
+.block-5-h3{
+    text-overflow: clip;
+    text-align: center;
+    padding-bottom: 20px;
+}
 .block-5-text{
     text-overflow: clip;
     text-align: center;
+    padding-bottom: 40px;
 }
+
 .block-4{
     margin-bottom: 30px;
 }
