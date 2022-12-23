@@ -229,10 +229,12 @@ width: auto;
 }
 
 .block3{
-   background-image: url("img/D-background-opacity.svg");   
+   background-image: url("img/D-background-opacity.svg"); 
+   margin-bottom: 30px;  
 }
 .block3 h3{
     text-align: center;
+    
 }
 
 .cardbutton{
@@ -365,10 +367,10 @@ ol li{
 }
 
 .Big{
-    font-size: 24px;
+    font-size: 36px;
     margin-bottom: 20px;
     margin-top: initial;
-    align-self: ;
+    align-self: center;
 }
 
 .headerTeam{
@@ -388,4 +390,18 @@ ol li{
 }
 .block-6-text{
     text-align: center;
+}
+.img{
+    display: flex;
+    align: center;
+}
+.block-card-4{
+    background-image: url("img/D-background-opacity.svg");
+}
+.block-5-text{
+    text-overflow: clip;
+    text-align: center;
+}
+.block-4{
+    margin-bottom: 30px;
 }
