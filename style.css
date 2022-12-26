@@ -1,4 +1,24 @@
-
+.BigButton{
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid #191970;
+    background-color: transparent;
+    height: 50px;
+    width: 200px;
+    color: color: #191970; ;
+    font-size: 1em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    margin:5px auto;
+    display: block;
+}
+.ssilka{
+    display: block;  text-align:center;
+}
+.BigButton:hover {
+    background-color:#FF4500;
+    transition: 0.7s;
+}
 .content {
     margin-top: 15%;
     width: 100%;
@@ -112,7 +132,7 @@ width: auto;
 #navbar ul li { float: none;  }
 #navbar ul li:hover { background-color: #A62500; }
 
-.bigbutton{
+.bigbutton1{
 
     text-align: center;
     border-radius: 5px;
@@ -127,7 +147,7 @@ width: auto;
     margin:5px auto;
     display: block;
 }
-.bigbutton:hover {
+.bigbutton1:hover {
     background-color:#FF4500;
     transition: 0.7s;
 }
@@ -346,7 +366,7 @@ ol li{
     font-size: 3.5em;
     text-align: left;
     }
-    .bigbutton{
+    .bigbutton1{
         text-align: center;
         margin:5px 0;
 
